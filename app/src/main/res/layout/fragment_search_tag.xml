@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:orientation="vertical"
+    tools:context=".fragments.SearchTag">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal" >
+    <EditText
+        android:id="@+id/editTag"
+        android:layout_width="0dp"
+        android:layout_weight="90"
+        android:layout_height="match_parent"
+        android:drawableRight="@drawable/abs__ic_clear_holo_light"
+        android:gravity="center"
+        android:hint="Enter a tag" />
+
+        <ImageView
+            android:id="@+id/search"
+            android:layout_width="0dp"
+            android:layout_weight="10"
+            android:layout_height="wrap_content"
+            android:onClick="Search"
+            android:gravity="center_vertical"
+            android:paddingTop="10.0dip"
+            android:src="@drawable/search_icon" />
+
+</LinearLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/tagGrid"
+
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="84"
+            android:scrollbars="vertical" />
+
+    <com.startapp.android.publish.banner.Banner
+        android:id="@+id/startAppBanner3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+
+        />
+</LinearLayout>
