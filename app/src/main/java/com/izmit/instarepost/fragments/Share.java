@@ -64,7 +64,7 @@ public class Share extends Fragment {
     public Share() {
         // Required empty public constructor
     }
-    
+
 
     private Bitmap bitmapForRepost=null;
     private Activity activity;

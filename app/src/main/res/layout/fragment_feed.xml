@@ -9,17 +9,9 @@
         android:id="@+id/feedGrid"
 
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="87"
+        android:layout_height="match_parent"
         android:scrollbars="vertical" />
 
-    <com.startapp.android.publish.banner.Banner
-        android:id="@+id/startAppBanner1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-
-  />
 
 
 </LinearLayout>
